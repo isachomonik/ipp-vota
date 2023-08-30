@@ -8,7 +8,13 @@ function App() {
       <div className='Container'>
         <h1>IPP Vota</h1>
         <div className="Login">
-
+          <form action="" method='POST'>
+            <label htmlFor="" id='cpf' >
+              CPF:
+            </label>
+              <input type="text" name="cpf" id="cpf" />
+            <input type="button" value="Enviar"/>
+          </form>
         </div>
       </div>
       

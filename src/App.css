@@ -10,13 +10,28 @@ height: 100vh;
 .Container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   
 
   width: 75vw;
   height: 75vh;
 
-  box-shadow: 50px 50px 100px  lightblue;
+  box-shadow: 50px 50px 200px lightblue,
+              -50px -50px 200px plum;
 
   border-radius: 50px;
 
+}
+
+.Container h1 {
+  font-size: 5vh;
+}
+
+.Container form {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
 }
